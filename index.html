@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>e-shop!</title>
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://www.shareicon.net/data/512x512/2015/10/03/111202_store_512x512.png" alt="" width="30"
+                    height="30" class="d-inline-block align-text-top">
+                e-shop!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bs">Best Sellers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="categories.html#tv">Air Conditioner</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Audio Accessories</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Camera</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Gaming</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Home Appliances</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Kitchen Appliances</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Laptop and Accessories</a></li>
+                            <li><a class="dropdown-item" href="categories.html#mobile">Mobile and Accessories</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Refrigerator</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Smart Wearables</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Television</a></li>
+                            <li><a class="dropdown-item" href="categories.html#tv">Washing Machine</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/IMG_20210814_130015.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/IMG_20210814_125832.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/IMG_20210814_125853.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/IMG_20210814_130116.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/IMG_20210814_130226.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/maxresdefault (5).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/W10.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Best Sellers -->
+    <section class="text-gray-400 bg-gray-900 body-font" id="bs">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-2">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Best Sellers</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Deals of the day are here... Enjoy!!</p>
+            </div>
+            <div class="container text-center my-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                            aria-label="Slide 9"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/sony-bravia-tv-advert-2020-8211-truly-immerse-yourself-8211-music-by-donata-fnq0VrItpUk.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20210814_130048.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/maxresdefault (2).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/619thuG7jjL.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/maxresdefault (1).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/maxresdefault (3).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20210814_125943.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/maxresdefault (4).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20210814_130215.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-20 mx-auto">
+            <div class="flex flex-col text-center w-full mb-10">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Search by Categories</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Welcome to e-shop! We have a wide range of
+                    products available here.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://motorolain.vtexassets.com/arquivos/ids/156425/Hero-AC-1000x1000px-1.png?v=637384246424370000"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Air Conditioner
+                            </h5>
+                            <p class="card-text mb-2">We have a wide range of available in e-shop! Checkout here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://5.imimg.com/data5/VY/NE/MY-49853734/car-audio-system-500x500.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Audio Accessories
+                            </h5>
+                            <p class="card-text mb-2">We have a wide range of Audio Systems available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.bhphotovideo.com/images/images2000x2000/sony_alpha_a6600_mirrorless_digital_1502813.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Camera</h5>
+                            <p class="card-text mb-2">We have a wide range of Cameras available in e-shop! Checkout here
+                            </p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.rcrwireless.com/wp-content/uploads/2020/09/114992844_l-scaled.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Gaming</h5>
+                            <p class="card-text mb-2">We have a wide range of Gaming Accessories available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn.shopify.com/s/files/1/0096/8474/6321/products/1569505981GAC9433_20_3_555e46ed-6148-48a5-90d3-8d921950cd51_420x.jpg?v=1589185959"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Home Appliances
+                            </h5>
+                            <p class="card-text mb-2">We have a wide range of Home Appliances available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.ifbappliances.com/media/catalog/product/2/0/20sc2_20l_convection_microwave_fv_4.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Kitchen
+                                Appliances</h5>
+                            <p class="card-text mb-2">We have a wide range of Kitchen Appliances available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://3.imimg.com/data3/OR/HX/MY-9617088/desktop-laptop-acessories-250x250.gif"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Laptops</h5>
+                            <p class="card-text mb-2">We have a wide range of Laptops available in e-shop! Checkout here
+                            </p>
+                            <a href="categories.html#mobile" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://static.digit.in/product/aa96a040fb3e7a460db1356fa061b10e580d5603.jpeg?tr=w-1200"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Mobiles</h5>
+                            <p class="card-text mb-2">We have a wide range of Mobiles available in e-shop! Checkout here
+                            </p>
+                            <a href="categories.html#mobile" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.croma.com/image/upload/v1605290356/Croma%20Assets/Large%20Appliances/Refrigerator/Images/8944748625950.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Refrigerator</h5>
+                            <p class="card-text mb-2">We have a wide range of Refrigerators available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#mobile" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://gloimg.gbtcdn.com/storage/item/6561660415148015616/15681/a62d8ed15cf0.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Smart Wearables
+                            </h5>
+                            <p class="card-text mb-2">We have a wide range of Smart Wearables available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#mobile" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.corning.com/content/dam/corning/media/worldwide/csm/images/3A--CDT--Televisions.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Television</h5>
+                            <p class="card-text mb-2">We have a wide range of Televisions available in e-shop! Checkout
+                                here</p>
+                            <a href="categories.html#tv" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://5.imimg.com/data5/NE/GG/MY-41600229/lg-washing-machine-500x500.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="sm:text-1xl text-2xl font-medium title-font mb-2 text-gray-900">Washing Machines
+                            </h5>
+                            <p class="card-text mb-2">We have a wide range of Washing Machines available in e-shop!
+                                Checkout here</p>
+                            <a href="categories.html#mobile" class="btn btn-secondary">View All-></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services and About Us -->
+    <div class="accordion accordion-flush bg-dark" id="accordionFlushExample">
+        <div class="flex flex-col text-center w-full mb-4 bg-dark" id="services">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 mt-4 text-white">About Us and Our Services</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-white mb-2">Here are some of our services... And
+                read to know us more..... Enjoy!!</p>
+        </div>
+        <div class="accordion-item bg-dark text-white" id="about">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    About Us: e-shop! The One-stop Shopping Destination
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">E-commerce is revolutionizing the way we all shop in India. Why do you want
+                    to hop from one store to another in search of the latest phone when you can find it on the Internet
+                    in a single click? Not only mobiles. e-shop! houses everything you can possibly imagine, from
+                    trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion
+                    staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining
+                    tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer
+                    grinder juicers and other time-saving kitchen and small appliances; from home furnishings like
+                    cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered.
+                    You name it, and you can stay assured about finding them all here. For those of you with erratic
+                    working hours, e-shop! is your best bet. Shop in your PJs, at night or in the wee hours of the
+                    morning. This e-commerce never shuts down.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    No Cost EMI
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">In an attempt to make high-end products accessible to all, our No Cost EMI
+                    plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on
+                    select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now
+                    shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances
+                    are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    EMI on Debit Cards
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Did you know debit card holders account for 79.38 crore in the country,
+                    while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another
+                    attempt to make online shopping accessible to everyone, e-shop! introduces EMI on Debit Cards,
+                    empowering you to shop confidently with us without having to worry about pauses in monthly cash
+                    flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank
+                    for this facility. More power to all our shoppers! Terms and conditions apply.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Exchange Offers
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Get an instant discount on the phone that you have been eyeing on. Exchange
+                    your old mobile for a new one after the e-shop! experts calculate the value of your old phone,
+                    provided it is in a working condition without damage to the screen. If a phone is applicable for an
+                    exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone.
+                    So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Mobile Phones
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">From budget phones to state-of-the-art smartphones, we have a mobile for
+                    everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries,
+                    blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space,
+                    we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo,
+                    Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most
+                    reliable names in the market. What's more, with e-shop!'s Complete Mobile Protection Plan, you will
+                    never again find the need to run around service centres. This plan entails you to a number of
+                    post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to
+                    phone, hardware and software glitches, and replacements - the e-shop! Complete Mobile Protection
+                    covers a comprehensive range of post-purchase problems, with door-to-door services.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    Electronic Devices and Accessories
+                </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">When it comes to laptops, we are not far behind. Filter among dozens of
+                    super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other
+                    criterias for personalized results in a flash. All you students out there, confused about what
+                    laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and
+                    research, project work, entertainment, design, multitasking) with recommendations from top brands
+                    and industry experts, facilitating a shopping experience that is quicker and simpler.
+
+                    Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever
+                    reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for
+                    adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon,
+                    Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers,
+                    you couldn't land at a better page than ours.
+
+                    Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range
+                    of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+
+                    How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile
+                    accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks
+                    can prove to be ideal travel companions for you and your phone; never again worry about running out
+                    of charge or memory on your next vacation.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    Large Appliances
+                </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful
+                    washing machines - discover everything you need to run a house under one roof. Our Dependable TV and
+                    Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong;
+                    delivery and installation as per your convenience and a double warranty (Official Brand Warranty
+                    along with an extended e-shop! Warranty) - rest assured, value for money is what is promised and
+                    delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu,
+                    Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    Small Home Appliances
+                </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Find handy and practical home appliances designed to make your life simpler:
+                    electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many
+                    more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king
+                    size with these appliances at home.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                    Lifestyle
+                </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">e-shop!, 'India ka Fashion Capital', is your one-stop fashion destination
+                    for anything and everything you need to look good. Our exhaustive range of Western and Indian wear,
+                    summer and winter clothing, formal and casual footwear, bridal and artificial jewellery,
+                    long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from
+                    crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and
+                    Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense
+                    cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a
+                    wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name
+                    a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for
+                    choice.Festivals, office get-togethers, weddings, brunches, or nightwear - e-shop! will have your
+                    back each time.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                    Home and Furniture
+                </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Moving to a new place is never easy, especially if you're buying new
+                    furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up
+                    everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What
+                    place is reliable, what furniture will stand the test of time? These are questions you must ask
+                    before you choose a store. Well, our Durability Certified Furniture Store has not only curated a
+                    range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab
+                    certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35
+                    stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always.
+                    Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect
+                    Homes.
+
+                    You may have your furniture all set up, but they could end up looking flat and incomplete without
+                    complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps -
+                    find everything that turns a house to an inviting home under one roof at e-shop!.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                    Baby and Kids
+                </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Your kids deserve only the best. From bodysuits, booties, diapers to
+                    strollers, if you're an expecting mother or a new mother, you will find everything you need to set
+                    sail on a smooth parenting journey with the help of our baby care collection. When it comes to
+                    safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers,
+                    MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                    Books, Sports and Games
+                </button>
+            </h2>
+            <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Work hard and no play? We don't believe in that. Get access to best-selling
+                    fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters,
+                    most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound
+                    to inspire you to get moving.</div>
+            </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+            <h2 class="accordion-header" id="flush-headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThirteen" aria-expanded="false"
+                    aria-controls="flush-collapseThirteen">
+                    Grocery/Supermart
+                </button>
+            </h2>
+            <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Launching into the grocery vertical, e-shop! introduces Supermart that is
+                    out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary
+                    care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we
+                    are happy to present everything you need to run a house. Now buy Grocery products for as low as 1
+                    Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only.
+                    Terms and conditions apply.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">ELECTRONICS</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Audio Accessories</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Mobiles</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Laptops</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#tv">Televisions</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">HOME APPLIANCES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Home Appliances</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Air Conditioner</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Refrigerators</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Washing Machines</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">OTHERS</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Gaming</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Smart Wearables</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Cameras</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-400 hover:text-white" href="categories.html#mobile">Kitchen Appliances</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4" id="contact">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Contact Us</h2>
+                    <div
+                        class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                        <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                            <label for="footer-field" class="leading-7 text-sm text-gray-400">Queries</label>
+                            <input type="text" id="footer-field" name="footer-field"
+                                class="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:bg-transparent focus:ring-2 focus:ring-indigo-900 focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <button
+                            class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Submit</button>
+                    </div>
+                    <p class="text-gray-500 text-sm mt-2 md:text-left text-center">If you have any query
+                        <br class="lg:block hidden">feel free to ask
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800 bg-opacity-75">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                    <a class="navbar-brand" href="#"> <img
+                            src="https://www.shareicon.net/data/512x512/2015/10/03/111202_store_512x512.png" alt=""
+                            width="30" height="30" class="d-inline-block align-text-top">
+                    </a>
+                    <span class="ml-3 text-xl">e-shop!</span>
+                </a>
+                <p class="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2021 e-shop! — made by
+                    <a href="https://github.com/SubhojeetDas1107" class="text-gray-500 ml-1" target="_blank"
+                        rel="noopener noreferrer">@Subhojeet Das</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-400" href="https://www.facebook.com/subhojeet.das.11">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400" href="https://twitter.com/sonudas1107?s=08">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400" href="https://www.instagram.com/subhojeetdas1107/">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400" href="https://www.linkedin.com/in/subhojeet-das-656871198">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login to e-shop!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div id="emailHelp" class="form-text">We'll never share your password with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <a class="form-text" href="">Forgot Password?</a>
+                            <a class="form-text" href="">Sign-up for free</a>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Login</button>
+                    <button type="button" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
